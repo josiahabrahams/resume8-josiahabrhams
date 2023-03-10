@@ -1,0 +1,324 @@
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid burlywood ;
+    background-color: white;
+    margin-right:  -35rem;
+    font-size: 25px;
+    
+  
+  }
+   input{
+         font-size: 1.5rem;
+   }
+   .down{
+            padding-top: 2rem;
+    }
+  header {
+    background-image:  url(../images/background-image.jpg);    
+    background-size: cover;   
+    background-color: #456990;
+        padding : 40px;
+        padding-top: -20px ;
+        padding-right: -108px;
+        padding-bottom: 13px;
+       text-align: center;
+      
+      
+  }
+
+ section{
+        padding-left:18px;
+       
+  }
+    
+  h2{
+    color: #840032;
+    padding-top: 40px;
+    font-size: 1.8rem;
+  }
+  
+  img.profile{
+    border: 2px solid #FF495C;
+    border-radius: 100%;
+    height: 8rem;
+    width: 8rem;
+  }
+  
+  a{
+    color:red;
+    font-size: 1.5rem ;
+  }
+  fieldset{
+           background-color: #EB5160;
+  }
+  img{
+       height:48px;
+       width:48px ;
+  }
+  h1{
+      font-size: 2rem;
+  }
+  
+  .bold{
+   
+    border-bottom: 5px;
+    border-style: solid #456990;
+    padding-left: 8px;
+  }
+  
+  form{
+      padding-right: 30px;
+  }
+footer{
+       padding-top: 30px;
+       text-align: center;
+}
+  div.space{ 
+            padding-top: 30px;
+           
+  }
+
+  h3{
+    font-size: 1.5rem;
+     color: #EB5160;
+     padding-top: 2.7rem;
+  }
+  
+  .none{
+      list-style: none;
+  }
+  
+  
+  
+  
+  #container{
+             display: flex;
+          
+  }
+  
+ .sticky {position: sticky;
+            top: 0;}
+  
+  #box1{
+    
+   padding-right: 100px;
+   margin-right:-90px;
+    padding-left: 70px;
+  }
+   
+  
+  
+  #box2{
+   padding-right: 95px;
+   
+  }
+  .personal{
+    color: blue;
+    font-size: 2rem;
+  }
+  .gap{
+    
+
+       background-color:#313638;
+       
+       
+       text-align: center;
+  }
+
+#big{
+     font-size: 15px;
+}
+
+.credit{
+         font-size:1rem;
+         color:red;
+}
+.burlywood{
+           color: burlywood;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid burlywood ;
+    background-color: white;
+    margin-right:  -100px;
+    font-size: 18px;
+    margin-left: 10px;
+ 
+   
+  }
+ img{
+     width: 48px ;
+     height: 48px;
+ }
+    
+  header {
+    background-image:  url(../images/background-image.jpg);    
+    background-size: cover;   
+    background-color: #456990;
+        padding : 40px;
+        padding-top: -20px ;
+        padding-right: -108px;
+        padding-bottom: 13px;
+       text-align: center;
+      font-size: 1.5rem;
+      
+  }
+  
+ section{
+        padding-left:18px;
+       
+  }
+    
+  h2{
+    color: #840032;
+    padding-top: 40px;
+    font-size: 1.5rem;
+  }
+  
+  img.profile{
+    border: 2px solid #FF495C;
+    border-radius: 100%;
+    height: 8rem;
+    width: 8rem;
+  }
+  
+a{
+
+}
+  
+  h1{
+      font-size: 2rem;
+  }
+  
+ 
+  
+  
+footer{
+       padding-top: 30px;
+       text-align: center;
+}
+  div.space{ 
+            padding-top: 30px;
+           
+  }
+
+  h3{
+    font-size: 1.4rem;
+     
+  }
+  
+  .none{
+      list-style: none;
+  }
+  
+    }
+  form{
+       margin-left: 80px ;
+       margin-right: 80px ;
+  }
+  section{
+          padding-left: 35px;
+          padding-bottom: 20px;
+  }
+  
+  
+  #container{
+             display: flex;
+          
+  }
+  
+ .sticky {position: sticky;
+      
+       margin-top: -1.3rem;
+           top: 0;
+                }
+               
+    
+    
+   #box1{
+         padding-left: 40px;
+   }
+  
+   
+  
+  #box2{
+   padding-left: 42px;
+   
+  }
+  .personal{
+    color: white;
+    font-size: 1rem;
+  }
+  .gap{
+    
+
+       background-color:#313638;
+       
+       
+       text-align: center;
+  }
+
+#big{
+     font-size: 0.8rem;
+}
+
+.credit{
+         font-size:1.5rem;
+         color: red;
+}
+.burlywood{
+           color: burlywood;
+}
+h4{
+   color: #EFA9AE;
+   font-size: 1.2rem;
+}
+
+
+  
+       /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+     body{
+          font-size: 25px;
+          margin-right: .9rem;
+     }
+     #container{
+           padding-left:80px ;
+     }
+     h2{
+        font-size: 2rem;
+     }
+     h1{
+       font-size : 2rem;
+     }
+     a{
+       font-size: 1.5rem;
+     }
+     #box1{
+          
+          padding-right: 8rem;
+     }
+     .personal{
+                font-size: 1.5rem;
+   
+   
+} 
+
+section{
+        padding-left: 7.5rem;
+}
+       img{
+           height: 60px ;
+           width: 60px ;
+       }
+  
+       img.profile{
+            height: 10rem ;
+            width: 10rem;
+       }
+}
